@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BillEase Pay</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn about BillEase Pay's mission to simplify bill payments, our commitment to security, and our vision for effortless financial management.">
+    <meta name="keywords" content="About BillEase Pay, online bill payment company, financial simplification, secure payment platform, BillEase Pay mission">
+    <link rel="canonical" href="https://billeasepay.vercel.app/about.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / LinkedIn Meta Tags -->
+    <meta property="og:title" content="About Us - BillEase Pay">
+    <meta property="og:description" content="Learn about BillEase Pay's mission to simplify bill payments and our commitment to secure financial management.">
+    <meta property="og:type" content="about_us">
+    <meta property="og:url" content="https://billeasepay.vercel.app/about.html">
+    <meta property="og:image" content="https://billeasepay.vercel.app/images/billease-pay-about-social.jpg"> <!-- Optional: Add a relevant image URL for social sharing -->
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Us - BillEase Pay">
+    <meta name="twitter:description" content="Learn about BillEase Pay's mission to simplify bill payments and our commitment to secure financial management.">
+    <meta name="twitter:image" content="https://billeasepay.vercel.app/images/billease-pay-about-social.jpg"> <!-- Optional: Add a relevant image URL for Twitter sharing -->
+
+    <!-- Schema.org Markup for Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "BillEase Pay",
+      "url": "https://billeasepay.vercel.app/",
+      "logo": "https://billeasepay.vercel.app/images/billease-pay-logo.png",
+      "sameAs": [
+        "https://facebook.com/billeasepay",  <!-- Replace with actual social profiles -->
+        "https://twitter.com/billeasepay",
+        "https://linkedin.com/company/billeasepay"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-PAY-BILLS",
+        "contactType": "customer service"
+      },
+      "description": "BillEase Pay is an online platform dedicated to simplifying bill payments and empowering users with effortless financial management through secure and intuitive tools."
+    }
+    </script>
+
+    <!-- Load Tailwind CSS for utility-first styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a modern, legible look across devices */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* A very light gray background for softness */
+            color: #1e293b; /* Dark slate color for primary text, ensuring good contrast */
+        }
+        /* Custom styles for accessibility and visual feedback on interactive elements */
+        .focus-ring {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.45); /* Tailwind blue-500 with subtle opacity for a professional, trustworthy feel */
+        }
+        /* Smooth transitions for hover effects and general interactivity */
+        .transition-ease {
+            transition: all 0.3s ease-in-out;
+        }
+        /* Keyframe animation for a subtle bounce effect on button hover */
+        @keyframes buttonHover {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-3px); }
+            100% { transform: translateY(0); }
+        }
+        .animate-button-hover:hover {
+            animation: buttonHover 0.3s ease-in-out;
+        }
+        /* Consistent padding for main content sections */
+        .section-padding {
+            padding-top: 5rem; /* Equivalent to Tailwind's py-20 */
+            padding-bottom: 5rem; /* Equivalent to Tailwind's py-20 */
+            padding-left: 1rem; /* Equivalent to Tailwind's px-4 */
+            padding-right: 1rem; /* Equivalent to Tailwind's px-4 */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header/Navigation Bar: Sticky to remain visible on scroll -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Site Logo/Name -->
+            <a href="index.html" class="text-2xl font-bold text-blue-600 rounded-lg p-2 hover:bg-blue-50 transition-ease">BillEase Pay</a>
+            <!-- Navigation Links -->
+            <nav>
+                <ul class="flex space-x-4 md:space-x-6 text-sm md:text-base">
+                    <li><a href="index.html#features" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Features</a></li>
+                    <li><a href="index.html#how-it-works" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">How It Works</a></li>
+                    <li><a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">About Us</a></li>
+                    <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium transition-ease rounded-lg p-2 hover:bg-gray-50">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="section-padding bg-white rounded-xl shadow-md mx-auto my-12 max-w-6xl">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-blue-700 mb-12">About BillEase Pay: Your Partner in Financial Simplification</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div class="text-left">
+                    <p class="text-gray-700 text-lg mb-6">
+                        At BillEase Pay, we are driven by a singular mission: to simplify the complex world of bill payments for individuals and businesses alike. We believe that managing your finances should be effortless, secure, and stress-free. Our platform is built on innovation, reliability, and a deep understanding of our users' needs.
+                    </p>
+                    <p class="text-gray-700 text-lg mb-6">
+                        Founded by a team of finance and technology experts, BillEase Pay was created to address the common frustrations associated with traditional bill payment methods. From forgotten due dates to tedious manual entries, we set out to build a solution that empowers you to take full control of your financial obligations with ease.
+                    </p>
+                    <p class="text-gray-700 text-lg">
+                        We are committed to providing a secure, intuitive, and comprehensive platform that not only helps you pay your bills on time but also offers valuable insights into your spending patterns. Join us on our journey to a more streamlined and financially confident future.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://placehold.co/400x250/3b82f6/ffffff?text=Financial+Control" onerror="this.onerror=null;this.src='https://placehold.co/400x250/e0e0e0/333333?text=About+Us+Image';" alt="Image representing financial control and digital payments" class="rounded-xl shadow-lg w-full max-w-md object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: Contains copyright and legal links -->
+    <footer class="bg-gray-800 text-white py-10 px-4 mt-12 rounded-t-xl shadow-lg">
+        <div class="container mx-auto text-center md:flex md:justify-between md:items-center">
+            <p class="text-sm mb-4 md:mb-0">&copy; 2025 BillEase Pay. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 md:space-x-6 text-sm">
+                <!-- Legal & Info Links -->
+                <a href="privacy.html" class="text-gray-300 hover:text-white transition-ease">Privacy Policy</a>
+                <a href="security.html" class="text-gray-300 hover:text-white transition-ease">Security Policy</a>
+                <a href="terms.html" class="text-gray-300 hover:text-white transition-ease">Terms & Conditions</a>
+                <a href="about.html" class="text-gray-300 hover:text-white transition-ease">About Us</a>
+                <a href="contact.html" class="text-gray-300 hover:text-white transition-ease">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
