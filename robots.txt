@@ -1,0 +1,8 @@
+# robots.txt for https://billeasepay.vercel.app/
+
+User-agent: *
+# Allow all crawlers to access all pages by default
+Allow: /
+
+# Specify the location of your sitemap
+Sitemap: https://billeasepay.vercel.app/sitemap.xml
