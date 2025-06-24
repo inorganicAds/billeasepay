@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://billeasepay.vercel.app/index.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod> <!-- Last modified date (YYYY-MM-DDTHH:MM:SS+00:00) -->
+    <changefreq>daily</changefreq> <!-- How frequently the page is likely to change -->
+    <priority>1.0</priority> <!-- Priority relative to other pages (0.0 to 1.0) -->
+  </url>
 
+  <!-- About Us Page -->
+  <url>
+    <loc>https://billeasepay.vercel.app/about.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-<url>
-  <loc>https://billeasepay.vercel.app/</loc>
-  <lastmod>2025-06-24T03:11:33+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://billeasepay.vercel.app/index.html</loc>
-  <lastmod>2025-06-24T03:11:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://billeasepay.vercel.app/about.html</loc>
-  <lastmod>2025-06-24T03:11:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://billeasepay.vercel.app/contact.html</loc>
-  <lastmod>2025-06-24T03:11:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://billeasepay.vercel.app/contact.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
+  <!-- Terms & Conditions Page -->
+  <url>
+    <loc>https://billeasepay.vercel.app/terms.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://billeasepay.vercel.app/privacy.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Security Policy Page -->
+  <url>
+    <loc>https://billeasepay.vercel.app/security.html</loc>
+    <lastmod>2025-06-24T08:51:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
